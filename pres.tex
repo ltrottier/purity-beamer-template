@@ -1,0 +1,66 @@
+\documentclass[svgnames, 9pt]{beamer}
+
+\usepackage{purity}
+\usepackage{natbib}
+
+\newcommand{\ppause}{\pause}
+
+\title[Short Title]{Title}
+\author{Authors}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Plan}
+  \tableofcontents
+\end{frame}
+
+\section{Section 1}
+
+\subsection{Subsection 1}
+
+\begin{frame}{Frame Title}
+\begin{itemize}
+    \item item 1
+    \item item 2
+\end{itemize}
+
+\vfill
+
+\begin{enumerate}
+    \item item 1
+    \item item 2
+\end{enumerate}
+\end{frame}
+
+\subsection{Subsection 2}
+
+\begin{frame}{Frame Title}
+\begin{block}{Block Title}
+    content
+\end{block}
+
+\vfill
+
+\begin{exampleblock}{Example Block Title}
+    content
+\end{exampleblock}
+
+\vfill
+
+\begin{alertblock}{Alert Block Title}
+    content
+\end{alertblock}
+\end{frame}
+
+
+\begin{frame}[allowframebreaks]{References}
+    \bibliographystyle{apalike}
+    \bibliography{bibliography.bib}
+\end{frame}
+
+\end{document}
