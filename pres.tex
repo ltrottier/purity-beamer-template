@@ -1,7 +1,15 @@
-\documentclass[svgnames, 9pt]{beamer}
+\documentclass[svgnames, 12pt, aspectratio=43]{beamer}
+% aspectratio in {169, 1610, 149, 54, 43, 32}
 
 \usepackage{purity}
 \usepackage{natbib}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+
 
 \newcommand{\ppause}{\pause}
 
@@ -23,6 +31,47 @@
 
 \subsection{Subsection 1}
 
+\begin{frame}{Fame Title}
+
+\textcolor{mycolor1}{This is color 1.}
+
+\textcolor{mycolor2}{This is color 2.}
+
+\textcolor{mycolor3}{This is color 3.}
+
+\textcolor{mycolor4}{This is color 4.}
+
+
+%\begin{gather}
+%\begin{align}
+%\color{mycolor1}{f(x) = ax + b}
+%\end{align} \\[6pt]
+%\begin{align}
+%\color{mycolor2}{ f(x) = ax + b}
+%\end{align} \\[6pt]
+%\begin{align}
+%\color{mycolor3}{ f(x) = ax + b}
+%\end{align} \\[6pt]
+%\begin{align}
+%\color{mycolor4}{ f(x) = ax + b}
+%\end{align}
+%\end{gather}
+
+\begin{align}
+\color{mycolor1}{f(x) = ax + b}
+\end{align}
+\begin{align}
+\color{mycolor2}{ f(x) = ax + b}
+\end{align} 
+\begin{align}
+\color{mycolor3}{ f(x) = ax + b}
+\end{align}
+\begin{align}
+\color{mycolor4}{ f(x) = ax + b}
+\end{align}
+
+\end{frame}
+
 \begin{frame}{Frame Title}
 \begin{itemize}
     \item item 1
@@ -35,6 +84,17 @@
     \item item 1
     \item item 2
 \end{enumerate}
+
+
+\vfill
+
+\begin{description}
+    \item[-] Description 1
+    \item[-] Description 2
+\end{description}
+
+
+
 \end{frame}
 
 \subsection{Subsection 2}
