@@ -128,15 +128,18 @@
     \else
         \leavevmode
         \hbox{
-            \begin{beamercolorbox}[wd=.32\paperwidth, ht=2.5ex, dp=1.125ex, leftskip=.3cm plus1fill, rightskip=.3cm]{author in head/foot}
+            \begin{beamercolorbox}[wd=.32\paperwidth, ht=2.5ex, dp=1.125ex]{author in head/foot}
+                \flushleft
                 \insertsection
             \end{beamercolorbox}
-            \begin{beamercolorbox}[wd=.32\paperwidth, ht=2.5ex, dp=1.125ex, leftskip=.3cm plus1fill, rightskip=.3cm]{author in head/foot}
+            \begin{beamercolorbox}[wd=.32\paperwidth, ht=2.5ex, dp=1.125ex]{author in head/foot}
+                \centering
                 \insertsubsection
             \end{beamercolorbox}
     
-            \begin{beamercolorbox}[wd=.32\paperwidth, ht=2.5ex, dp=1.125ex, leftskip=.3cm plus1fill, rightskip=.3cm]{author in head/foot}
-                \insertframenumber/\inserttotalframenumber\hspace*{0.5em}
+            \begin{beamercolorbox}[wd=.32\paperwidth, ht=2.5ex, dp=1.125ex]{author in head/foot}
+                \flushright
+                \insertframenumber/\inserttotalframenumber%\hspace*{0.5em}
             \end{beamercolorbox}
         }
         \vskip0pt
